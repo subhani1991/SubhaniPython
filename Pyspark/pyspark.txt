@@ -1,0 +1,24 @@
+1.Apache spark is a unified computing engine.provides a set of libraries for parallel data processing on computing cluster.
+
+Spark-unified Platform:
+	->Unified platform for writting big data applications.
+	->Spark is designed to support a wide rang of data analytics tasks over the same computing engine and with a consistent set of APIs.
+
+Spark -computing Engine
+-----------------------
+	->spark carefully limits its scope to a Computing engine.
+	->Spark only handles loading data from storage systems and performing computation on it.Not permanent storage as the end itself.
+	->Spark can be used with a wide variety of presistent storage system.
+	1.cloud storage system such as Azure and Amazon S3.
+	2.distributed file system such as Apache Hadoop.
+	3.key-value stores such as Apache Cassandra.
+	4.message buses such as Apache Kafka.
+
+-->Spark does not store data long-term itself.
+*spark's main component is its libraries, which build on its design as a unified engine to provide a unified API for common data analysis tasks.
+*Spark supports both standard libraries that ship with the engine, and a wide array of external libraries published as third-party packages by the open source communities.
+
+Why Spark??
+	*collecting data is extermely inexpensive but processing it requires large, parallel computations often on clusters of machines.
+	*
+
